@@ -21,6 +21,9 @@ function Layout() {
                     <li>
                         <Link to="work2">리액트 예제 P174</Link>
                     </li>
+                    <li>
+                        <Link to="work3">리액트 예제 P189</Link>
+                    </li>
                 </ul>
             </nav>
 

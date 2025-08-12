@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Layout from "./componets/Layout";
 import Work1 from "./pages/work/Work1";
 import Work2 from "./pages/work/Work2";
+import Work3 from "./pages/work/Work3";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
             <Route path="work1" element={<Work1 />} />
 
             <Route path="work2" element={<Work2 />} />
+
+            <Route path="work3" element={<Work3 />} />
           </Route>
         </Routes>
       </HashRouter>
