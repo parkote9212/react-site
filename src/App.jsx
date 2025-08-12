@@ -1,24 +1,29 @@
-import { BrowserRouter, Routes } from "react-router-dom";
-import { Route } from "react-router-dom";
-// import { useState } from "react";
+// App.js
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Login from "./compo/Login";
 import Home from "./compo/Home";
 import Layout from "./compo/Layout";
-import Work from "./compo/Work"
+import Work from "./compo/Work";
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
       <h1>과제방</h1>
       <BrowserRouter>
         <Routes>
-          <Route path="/react-site/" element={<Layout />} />
-          <Route index element={<Home />} />
-          <Route path="/react-site/login" element={<Login />} />
-          <Route path="/react-site/work" element={<Work />} />
+          {/* Layout을 부모 Route로 설정 */}
+          <Route path="/react-site" element={<Layout />}>
+            {/* '/react-site' 경로 접속 시 기본으로 보여줄 페이지 */}
+            <Route index element={<Home />} />
+            
+            {/* '/react-site/login' 경로 */}
+            <Route path="login" element={<Login />} />
+            
+            {/* '/react-site/work' 경로 */}
+            <Route path="work" element={<Work />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
