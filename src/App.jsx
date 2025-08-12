@@ -2,10 +2,11 @@
 
 import { HashRouter, Routes, Route } from "react-router-dom"; // 1. HashRouter로 변경
 import "./App.css";
-import Login from "./compo/Login";
-import Home from "./compo/Home";
-import Layout from "./compo/Layout";
-import Work from "./compo/Work";
+import Login from "./pages/Login";
+import Home from "./pages/Home";
+import Layout from "./componets/Layout";
+import Work1 from "./pages/work/Work1";
+import Work2 from "./pages/work/Work2";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
             {/* '/react-site/login' 경로 */}
             <Route path="login" element={<Login />} />
 
-            {/* '/react-site/work' 경로 */}
-            <Route path="work" element={<Work />} />
+            <Route path="work1" element={<Work1 />} />
+
+            <Route path="work2" element={<Work2 />} />
           </Route>
         </Routes>
       </HashRouter>

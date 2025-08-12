@@ -16,7 +16,10 @@ function Layout() {
                         <Link to="login">Login</Link>
                     </li>
                     <li>
-                        <Link to="work">Work</Link>
+                        <Link to="work1">리액트 usestate사용</Link>
+                    </li>
+                    <li>
+                        <Link to="work2">리액트 예제 P174</Link>
                     </li>
                 </ul>
             </nav>
