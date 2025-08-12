@@ -15,7 +15,7 @@ function App() {
       <HashRouter>
         <Routes>
           {/* Layout을 부모 Route로 설정 */}
-          <Route path="/react-site" element={<Layout />}>
+          <Route path="/" element={<Layout />}>
             {/* '/react-site' 경로 접속 시 기본으로 보여줄 페이지 */}
             <Route index element={<Home />} />
 
