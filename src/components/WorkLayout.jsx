@@ -1,20 +1,14 @@
-// compo/Layout.js
+// compo/WorkLayout.js
 
 import { Link, Outlet } from "react-router-dom";
 
-function Layout() {
+function WorkLayout() {
     return (
         <div>
-            {/* 이 내비게이션은 어떤 페이지를 가든 공통으로 보입니다. */}
+            <h3>과제 리스트</h3>
+            {/* 기존 과제 링크들을 이곳으로 옮겨옵니다. */}
             <nav>
                 <ul>
-                    <li>
-                        {/* to=""는 부모 경로인 /react-site를 의미합니다. */}
-                        <Link to="">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="login">Login</Link>
-                    </li>
                     <li>
                         <Link to="work1">리액트 usestate사용</Link>
                     </li>
@@ -24,17 +18,21 @@ function Layout() {
                     <li>
                         <Link to="work3">리액트 예제 P189</Link>
                     </li>
+                    <li>
+                        <Link to="work4">리액트 후크 Effect,Memo</Link>
+                    </li>
                 </ul>
             </nav>
 
             <hr />
-
-            {/* ↓ 이 자리에 Home, Login, Work 컴포넌트가 렌더링됩니다. */}
+            
+            <h4>과제 내용</h4>
+            {/* ↓ 이 Outlet 자리에 work1, work2 등 각 과제 컴포넌트가 렌더링됩니다. */}
             <main>
                 <Outlet />
             </main>
-
         </div>
     );
 }
-export default Layout;
+
+export default WorkLayout;

@@ -1,8 +1,8 @@
-import Counter from './componets/Counter'
-import InputMirror from './componets/InputMirror'
-import ColorChanger from './componets/ColorChanger'
-import ToggleButton from './componets/ToggleButton'
-import TodoList from './componets/TodoList'
+import Counter from './componets/work1comp/Counter'
+import InputMirror from './componets/work1comp/InputMirror'
+import ColorChanger from './componets/work1comp/ColorChanger'
+import ToggleButton from './componets/work1comp/ToggleButton'
+import TodoList from './componets/work1comp/TodoList'
 function Work1() {
 
   return (
