@@ -9,7 +9,7 @@ const users = [
 
 const Exmemo3 = () => {
     // '활성 사용자만 보기' 상태를 관리 (true이면 활성 사용자만)
-    const [showActive, setShowActive] = useState(false);
+    const [showActive, setShowActive] = useState(true);
 
     // showActive 값이 변경될 때만 필터링 로직을 다시 실행
     const filteredUsers = useMemo(() => {
