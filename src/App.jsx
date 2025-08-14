@@ -14,6 +14,7 @@ import Work1 from "./pages/work/Work1";
 import Work2 from "./pages/work/Work2";
 import Work3 from "./pages/work/Work3";
 import Work4 from "./pages/work/Work4";
+import Work5 from "./pages/work/Work5";
 
 function App() {
     return (
@@ -35,6 +36,7 @@ function App() {
                         <Route path="work2" element={<Work2 />} />
                         <Route path="work3" element={<Work3 />} />
                         <Route path="work4" element={<Work4 />} />
+                        <Route path="work5" element={<Work5 />} />
 
                     </Route>
                 </Route>
