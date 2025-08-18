@@ -22,7 +22,7 @@ function WorkLayout() {
                         <Link to="work4">리액트 후크 Effect,Memo</Link>
                     </li>
                      <li>
-                        <Link to="work5">리액트 Context,Store(zu,리덕스)</Link>
+                        <Link to="work6">리액트 Context,Store(zu,리덕스)</Link>
                     </li>
                 </ul>
             </nav>
