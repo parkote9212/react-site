@@ -46,7 +46,7 @@ const CommentLabel = styled.p`
     font-weight: 500;
 `;
 
-function PostViewPage(props) {
+function PostViewPage() {
     const navigate = useNavigate();
     const { postId } = useParams();
 
@@ -62,7 +62,7 @@ function PostViewPage(props) {
                 <Button
                     title='뒤로 가기'
                     onClick={() => {
-                        navigate('/');
+                        navigate('/work/work7');
                     }}
                 />
                 <PostContainer>

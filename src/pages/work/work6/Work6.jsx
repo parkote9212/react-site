@@ -1,10 +1,10 @@
-import Ex_const1 from './componets/work6comp/Ex_const1';
-import Ex_cont from './componets/work6comp/Ex_cont';
-import Ex_cont2 from './componets/work6comp/Ex_cont2';
-import Ex_js2 from './componets/work6comp/Ex_js2';
-import Ex_zustand from './componets/work6comp/Ex_zustand';
-import Ex_redux from './componets/work6comp/Ex_redux';
-import { store_redux } from './componets/work6comp/store_redux';
+import Ex_const1 from './components/Ex_const1';
+import Ex_cont from './components/Ex_cont';
+import Ex_cont2 from './components/Ex_cont2';
+import Ex_js2 from './components/Ex_js2';
+import Ex_zustand from './components/Ex_zustand';
+import Ex_redux from './components/Ex_redux';
+import { store_redux } from './components/store_redux';
 import { Provider } from 'react-redux';
 function Work6() {
   return (

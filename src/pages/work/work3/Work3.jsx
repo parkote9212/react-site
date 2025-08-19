@@ -1,4 +1,4 @@
-import NotificationList from "./componets/work3comp/NotificationList";
+import NotificationList from "./components/NotificationList";
 
 export default function Work3(){
 

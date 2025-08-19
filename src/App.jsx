@@ -10,13 +10,13 @@ import WorkLayout from "./components/WorkLayout"; // 새로 만들 과제방 레
 // Pages
 import Login from "./pages/Login";
 import Home from "./pages/Home";
-import Work1 from "./pages/work/Work1";
-import Work2 from "./pages/work/Work2";
-import Work3 from "./pages/work/Work3";
-import Work4 from "./pages/work/Work4";
-import Work5 from "./pages/work/Work5";
-import Work6 from "./pages/work/Work6";
-import Work7 from "./pages/work/Work7";
+import Work1 from "./pages/work/work1/Work1";
+import Work2 from "./pages/work/work2/Work2";
+import Work3 from "./pages/work/work3/Work3";
+import Work4 from "./pages/work/work4/Work4";
+import Work5 from "./pages/work/work5/Work5";
+import Work6 from "./pages/work/work6/Work6";
+import Work7 from "./pages/work/work7/Work7";
 
 
 function App() {

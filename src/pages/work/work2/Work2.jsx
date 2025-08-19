@@ -1,4 +1,4 @@
-import CommentList from './componets/work2comp/CommentList'
+import CommentList from './components/CommentList'
 function Work2() {
 
   return (

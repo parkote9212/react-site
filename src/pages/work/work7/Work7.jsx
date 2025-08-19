@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router';
 import styled from 'styled-components';
 // Pages
-import MainPage from './componets/work7comp/pages/MainPage';
-import PostWritePage from './componets/work7comp/pages/PostWritePage';
-import PostViewPage from './componets/work7comp/pages/PostViewPage';
+import MainPage from './components/pages/MainPage';
+import PostWritePage from './components/pages/PostWritePage';
+import PostViewPage from './components/pages/PostViewPage';
 
 const MainTitleText = styled.p`
     font-size: 24px;
