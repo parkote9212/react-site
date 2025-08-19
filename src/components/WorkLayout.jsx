@@ -27,6 +27,9 @@ function WorkLayout() {
                      <li>
                         <Link to="work6">리액트 Context,Store(zu,리덕스)</Link>
                    </li>
+                   <li>
+                        <Link to="work7">소플의 미니블로그</Link>
+                   </li>
                 </ul>
             </nav>
 

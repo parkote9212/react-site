@@ -14,8 +14,10 @@ import Work1 from "./pages/work/Work1";
 import Work2 from "./pages/work/Work2";
 import Work3 from "./pages/work/Work3";
 import Work4 from "./pages/work/Work4";
-import Work6 from "./pages/work/Work6";
 import Work5 from "./pages/work/Work5";
+import Work6 from "./pages/work/Work6";
+import Work7 from "./pages/work/Work7";
+
 
 function App() {
     return (
@@ -39,6 +41,7 @@ function App() {
                         <Route path="work4" element={<Work4 />} />
                         <Route path="work5" element={<Work5 />} />
                         <Route path="work6" element={<Work6 />} />
+                        <Route path="work7/*" element={<Work7 />} />
                     </Route>
                 </Route>
             </Routes>
