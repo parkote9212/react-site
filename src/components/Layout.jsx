@@ -103,6 +103,13 @@ function Layout() {
                         <DropdownMenu>
                             <DropdownMenuItem><Link to="/exam/chapter7">Chapter 7</Link></DropdownMenuItem>
                             <DropdownMenuItem><Link to="/exam/chapter8">Chapter 8</Link></DropdownMenuItem>
+                            <DropdownMenuItem><Link to="/exam/chapter9">Chapter 9</Link></DropdownMenuItem>
+                            <DropdownMenuItem><Link to="/exam/chapter10">Chapter 10</Link></DropdownMenuItem>
+                            <DropdownMenuItem><Link to="/exam/chapter11">Chapter 11</Link></DropdownMenuItem>
+                            <DropdownMenuItem><Link to="/exam/chapter12">Chapter 12</Link></DropdownMenuItem>
+                            <DropdownMenuItem><Link to="/exam/chapter13">Chapter 13</Link></DropdownMenuItem>
+                            <DropdownMenuItem><Link to="/exam/chapter14">Chapter 14</Link></DropdownMenuItem>
+                            <DropdownMenuItem><Link to="/exam/chapter15">Chapter 15</Link></DropdownMenuItem>
 
                         </DropdownMenu>
                     </DropdownNavItem>
