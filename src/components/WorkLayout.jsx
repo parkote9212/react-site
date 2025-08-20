@@ -1,6 +1,5 @@
-// compo/WorkLayout.js
-
 import { Link, Outlet } from "react-router-dom";
+
 
 function WorkLayout() {
     return (

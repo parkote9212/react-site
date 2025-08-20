@@ -31,8 +31,10 @@ import Chapter15 from "./pages/exam/chapter15/Chapter15";
 
 function App() {
     return (
+        
         // HashRouter가 전체를 감싸야 합니다.
         <HashRouter>
+            <h2>박근철 Vite React 과제방</h2>
             <Routes>
                 {/* 1. 최상위 부모 Route는 공통 레이아웃을 담당합니다. */}
                 <Route path="/" element={<Layout />}>
