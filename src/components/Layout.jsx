@@ -18,6 +18,10 @@ function Layout() {
                         {/* '과제방' 페이지로 이동하는 링크 추가 */}
                         <Link to="work">과제방</Link>
                     </li>
+                    <li>
+                        {/* '과제방' 페이지로 이동하는 링크 추가 */}
+                        <Link to="exam">예제방</Link>
+                    </li>
                 </ul>
             </nav>
 
